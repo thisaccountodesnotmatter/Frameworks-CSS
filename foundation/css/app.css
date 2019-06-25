@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*clase del body*/
+.gastronomy {
+	background-image: url(../img/background.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+  width: 100%;
+ 	height: 100%;
+}
+
+/*Contents Class*/
+.contents {
+	/* Old Brosers with no transparency support */
+		 background: rgb(100, 100, 130) transparent;
+ /* Browsers that do support transparency */
+		 background: rgba(100, 100, 130, 0.65);
+ /* Older versions of Internet Explorer */
+		 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+ /* Internet Explorer 8 or higher */
+		 -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+/*header Class*/
+#heading {
+	color: white;
+	border-right: solid 2px white;
+}
+
+.blogname {
+	text-align: left;
+	font-style: italic;
+}
+
+.slogan {
+	text-align: right;
+}
+
+/*sections Class*/
+.sections {
+	border-top: solid 2px white;
+}
+
+strong{
+	font-weight: bold;
+}
+
+p{
+	color: #d6d8db;
+}
+
+.comments {
+	border-top: solid 2px white;
+}
+
+.usercomment{
+	/* Old Brosers with no transparency support */
+		 background: rgb(100, 100, 180) transparent;
+ /* Browsers that do support transparency */
+		 background: rgba(100, 100, 180, 0.65);
+ /* Older versions of Internet Explorer */
+		 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+ /* Internet Explorer 8 or higher */
+		 -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.title {
+	color:#d6d8db;
+}
+
+/*clase de imagenes*/

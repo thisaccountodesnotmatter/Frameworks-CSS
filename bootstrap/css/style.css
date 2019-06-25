@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Clase para dispositivos medianos*/
+@media (max-width: 991px) {
+	.search {
+		display: none;
+	}
+
+	.contents {
+		margin: 5px 10px;
+	}
+
+	.logo-img {
+		margin: 0px 10px;
+		text-align: center;
+	}
+
+	.social {
+		text-align: center;
+	}
+}
+
+/*Big screens*/
+@media (min-width: 991px) {
+	.social {
+		text-align: right;
+	}
+
+	.logo-img {
+		text-align: left;
+	}
+}
+
+.logo-img img {
+	height: 150px;
+}
+
+.social-img {
+	border-radius: 10px;
+	width: 50px;
+}
+
+.img-search {
+	width: 30px;
+	border-radius: 5px;
+}
